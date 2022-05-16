@@ -1,0 +1,2 @@
+Balance before deposit: $0.00
+Enter deposit amount: $Balance after deposit: $10.00

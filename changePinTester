@@ -1,0 +1,4 @@
+echo Test 1: Change PIN to 1111
+./changePinTest < changePinInput1.txt | diff - changePinExpected1.txt
+echo Test 2: Change PIN to 9876
+./changePinTest < changePinInput2.txt | diff - changePinExpected2.txt

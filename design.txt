@@ -1,0 +1,19 @@
+Banking System
+
+The system should be able to:
+	- Bank class
+	- Account class
+	- Savings/Transaction account Class inherit Account class
+		-Only 1 of each savings/transaction account per User account
+	- Create a bank account (User Input)
+		- Name, username, password
+		- Edit/Update details/password
+		- Different accounts stored in an array
+	- Withdraw/Deposit money
+		- double
+		- User Input
+	- Show balance (Output)
+	- Show statement
+	- Transfer betweek different accounts
+		- Saving accounts
+		- Transaction accounts

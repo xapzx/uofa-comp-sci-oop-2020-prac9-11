@@ -1,0 +1,6 @@
+echo Test 1: Withdraw '$'0
+./withdrawTest < withdrawTestInput1.txt | diff - withdrawTestExpected1.txt
+echo Test 2: Withdraw '$'10
+./withdrawTest < withdrawTestInput2.txt | diff - withdrawTestExpected2.txt
+echo Test 3: Withdraw '$'150.25
+./withdrawTest < withdrawTestInput3.txt | diff - withdrawTestExpected3.txt

@@ -1,0 +1,3 @@
+Balance before withdrawal: $1000.00
+Balance: $1000.00
+Enter withdraw amount $Balance after withdrawal: $849.75

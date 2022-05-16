@@ -1,0 +1,4 @@
+echo Test 1: Change Name to New Name
+./changeNameTest < changeNameInput1.txt | diff - changeNameExpected1.txt
+echo Test 2: Change Name to Andy Phan
+./changeNameTest < changeNameInput2.txt | diff - changeNameExpected2.txt

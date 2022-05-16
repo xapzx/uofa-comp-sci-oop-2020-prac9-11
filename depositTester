@@ -1,0 +1,4 @@
+echo Test 1: Deposit '$'10
+./depositTest < depositTestInput1.txt | diff - depositTestExpected1.txt
+echo Test 2: Deposit '$'125.25
+./depositTest < depositTestInput2.txt | diff - depositTestExpected2.txt

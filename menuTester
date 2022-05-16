@@ -1,0 +1,4 @@
+echo Test 1: Menu option 1
+./menuTest < menuInput1.txt | diff - menuExpected1.txt
+echo Test 2: menu option 10
+./menuTest < menuInput2.txt | diff - menuExpected2.txt
